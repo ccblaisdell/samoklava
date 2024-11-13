@@ -34,21 +34,25 @@ points:
       columns:
         pinky:
           key:
+            splay: 15
             stagger: 0 ky
             spread: kx
             column_net: col_pinky
         ring:
           key:
+            splay: -10
             stagger: 0.7 ky
             spread: kx
             column_net: col_ring
         middle:
           key:
+            splay: -5
             stagger: 0.2 ky
             spread: kx
             column_net: col_middle
         index:
           key:
+            splay: -5
             stagger: -0.2 ky
             spread: kx
             column_net: col_index
