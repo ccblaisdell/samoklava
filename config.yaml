@@ -30,36 +30,29 @@ points:
           shift: [0, -5]
   zones:
     matrix:
-      key.padding: ky
+      key:
+        padding: ky
+        spread: kx
       columns:
         pinky:
           key:
-            splay: 15
             stagger: 0 ky
-            spread: kx
             column_net: col_pinky
         ring:
           key:
-            splay: -10
             stagger: 0.7 ky
-            spread: kx
             column_net: col_ring
         middle:
           key:
-            splay: -5
             stagger: 0.2 ky
-            spread: kx
             column_net: col_middle
         index:
           key:
-            splay: -5
             stagger: -0.2 ky
-            spread: kx
             column_net: col_index
         inner:
           key:
             stagger: -0.1 ky
-            spread: kx
             column_net: col_inner
       rows:
         bottom:
@@ -70,13 +63,12 @@ points:
           row_net: row_top
     thumbfan:
       anchor:
-        ref: matrix_inner_bottom
-        shift: [-0.5 kx, -1 ky]
+        ref: matrix_pointer_bottom
+        shift: [0.25 kx, -1 ky]
       columns:
         near:
           key:
             spread: kx
-            splay: -15
             origin: [-0.5 kx, -0.5 ky]
             column_net: col_middle
         home:
