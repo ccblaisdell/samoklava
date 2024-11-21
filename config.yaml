@@ -63,7 +63,7 @@ points:
           row_net: row_top
     thumbfan:
       anchor:
-        ref: matrix_pointer_bottom
+        ref: matrix_index_bottom
         shift: [0.25 kx, -1 ky]
       columns:
         near:
